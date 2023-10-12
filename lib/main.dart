@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kfcapp/screens/homepage.dart';
+import 'package:kfcapp/views/screens/homepage.dart';
 
 void main(){
   runApp(kfcapp());
@@ -22,15 +22,3 @@ class kfcapp extends StatelessWidget {
 }
 
 
-
-class ScrollableScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Scrollable Screen'),
-      ),
-
-    );
-  }
-}
